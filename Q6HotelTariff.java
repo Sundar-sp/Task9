@@ -12,26 +12,26 @@ public class Q6HotelTariff {
 		int days = sc.nextInt();
 		sc.close();
 		DecimalFormat df = new DecimalFormat(".00");
-		double rent1 = rent+(rent*.2);
+		double seasonsrent = rent+(rent*.2);
 		switch (month) {
 		case 4:
-			double april = rent1*days;
+			double april = seasonsrent*days;
 			System.out.println("Hotel Tariff:"+df.format(april));
 			break;
 		case 5:
-			double may = rent1*days;
+			double may = seasonsrent*days;
 			System.out.println("Hotel Tariff:"+df.format(may));
 			break;
 		case 6:
-			double june = rent1*days;
+			double june = seasonsrent*days;
 			System.out.println("Hotel Tariff:"+df.format(june));
 			break;
 		case 11:
-			double nov = rent1*days;
+			double nov = seasonsrent*days;
 			System.out.println("Hotel Tariff:"+df.format(nov));
 			break;
 		case 12:
-			double dec = rent1*days;
+			double dec = seasonsrent*days;
 			System.out.println("Hotel Tariff:"+df.format(dec));
 			break;
 		default:
@@ -39,3 +39,10 @@ public class Q6HotelTariff {
 		}
 		}
 }
+
+
+Output:
+Enter month: 5
+Enter Room Rent per day: 1500
+Enter number of days: 2
+Hotel Tariff:3600.00

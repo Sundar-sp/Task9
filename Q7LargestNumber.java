@@ -27,4 +27,9 @@ public class Q7LargestNumber {
 }
 	
 
+Output:
+Enter 1st value: 10
+Enter 2nd value: 30
+Enter 3rd value: 20
+2nd value 30 is largest value
 
